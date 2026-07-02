@@ -25,6 +25,8 @@ theme:
 
 nav:
   - Home: index.md
+  - Guides:
+      - Embedding: guides/embedding.md
   - Reference:
       - kronofoto: reference/kronofoto.md
       - models: reference/models.md
@@ -34,6 +36,11 @@ nav:
       - search: reference/search.md
       - templatetags: reference/templatetags.md
       - management: reference/management.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - tables
 
 plugins:
   - search

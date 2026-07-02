@@ -23,9 +23,13 @@ Kronofoto features a suite of tools to engage the public in visual history:
 - **Krono360** — an immersive visual geolocation tool that situates historic
   photographs in the modern landscape.
 
-This site documents the Python/Django codebase (package `fortepan_us`) —
-see [Reference](reference/kronofoto.md) for the module-by-module API
-reference, generated from the docstrings in the code itself.
+- **[Embedding](guides/embedding.md)** — how to put a photo, exhibit, or
+  collection on your own site.
+
+This site also documents the Python/Django codebase (package
+`fortepan_us`) — see [Reference](reference/kronofoto.md) for the
+module-by-module API reference, generated from the docstrings in the code
+itself.
 
 For install/setup instructions, see the
 [project README](https://github.com/fortepan-us/kronofoto#readme).
